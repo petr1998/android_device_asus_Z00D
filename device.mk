@@ -16,7 +16,7 @@
 #
 
 #Touchcreen Keylayout
-BOARD_TOUCHSCREEN_DRIVER := synaptics_dsx
+#BOARD_TOUCHSCREEN_DRIVER := synaptics_dsx
 
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xhdpi
@@ -39,7 +39,7 @@ $(call inherit-product-if-exists, frameworks/native/build/phone-xxhdpi-2048-hwui
 DEVICE_PACKAGE_OVERLAYS := \
     device/asus/T00F/overlay
 
-$(call inherit-product-if-exists, vendor/asus/T00F/T00F-vendor.mk)
+$(call inherit-product-if-exists, vendor/asus/Z00D/Z00D-vendor.mk)
 
 # Inherit from ctp-common
 $(call inherit-product, device/asus/ctp-common/ctp.mk)
