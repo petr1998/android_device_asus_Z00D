@@ -12,7 +12,6 @@ vendor/firmware/telephony/XMM_7160_REV35_1538.00_V1.3_signed_MIPI_FLASHLESS.fls
 etc/mamgr/xmm1.xml
 
 vendor/etc/route_criteria.conf
-
 etc/firmware/vpimg_es325.bin
 
 # Camera
