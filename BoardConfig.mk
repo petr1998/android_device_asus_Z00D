@@ -32,8 +32,6 @@ BOARD_FLASH_BLOCK_SIZE := 2048
 # SELinux
 BOARD_SEPOLICY_DIRS += device/asus/Z00D/sepolicy
 
-TARGET_TAP_TO_WAKE_NODE := "/sys/bus/i2c/devices/i2c-0/0-0038/dclick_mode"
-
 # Bootloader
 TARGET_OTA_ASSERT_DEVICE := Z00D,ASUS_Z00D
 

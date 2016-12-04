@@ -37,7 +37,7 @@ $(call inherit-product-if-exists, frameworks/native/build/phone-xhdpi-2048-dalvi
 $(call inherit-product-if-exists, frameworks/native/build/phone-xxhdpi-2048-hwui-memory.mk)
 
 DEVICE_PACKAGE_OVERLAYS := \
-    device/asus/T00F/overlay
+    device/asus/Z00D/overlay
 
 $(call inherit-product-if-exists, vendor/asus/Z00D/Z00D-vendor.mk)
 
