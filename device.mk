@@ -26,9 +26,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Ramdisk config of governors
 ADDITIONAL_DEFAULT_PROPERTIES += \
-    ro.sys.perf.device.powersave=800000 \
-    ro.sys.perf.device.full=1633000 \
-    ro.sys.perf.device.touchboost=1330000
+    ro.sys.perf.device.powersave=933000 \
+    ro.sys.perf.device.full=1600000 \
+    ro.sys.perf.device.touchboost=1333000
 
 # call dalvik heap config
 $(call inherit-product-if-exists, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
