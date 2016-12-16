@@ -17,7 +17,7 @@ PRODUCT_RUNTIMES := runtime_libart_default
 ## Device identifier. This must come after all inclusions
 PRODUCT_NAME := cm_Z00D
 PRODUCT_BRAND := asus
-PRODUCT_MODEL := Z00D
+PRODUCT_MODEL := ASUS_Z00D
 PRODUCT_MANUFACTURER := asus
 PRODUCT_DEVICE := Z00D
 
